@@ -67,10 +67,12 @@ schema for this part is below::
     );
 
 Save this database to a new file called pets.db. Once that is done, you should do the following:
+
 1. Create a script called load_pets.py, which will connect to the database in pets.db, and load up the
 data below using INSERT commands
     a. TODO
-2. Create a script called query_pets.py, which will
+
+2. Create a script called query_pets.py, which will:
     a. Connect to the database in pets.db
     b. Ask the user for a person’s ID number
     c. Print out data on the person (e.g. Bob Smith, 43 years old)
