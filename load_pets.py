@@ -50,17 +50,17 @@ try:
                         if int(dead) == 0:
                             print '{} {} owns {}, a {} ' \
                                   'that is {} years old.'.format(first,
-                                                                last,
-                                                                name,
-                                                                breed,
-                                                                years)
-                        elif int(dead) == 1:
-                            print '{} {} owned {}, a {} ' \
-                                  'that was {} years old.'.format(first,
                                                                  last,
                                                                  name,
                                                                  breed,
                                                                  years)
+                        elif int(dead) == 1:
+                            print '{} {} owned {}, a {} ' \
+                                  'that was {} years old.'.format(first,
+                                                                  last,
+                                                                  name,
+                                                                  breed,
+                                                                  years)
 
         pid = raw_input('Enter a person\s ID: ')
     raise db.Error('Ending program')
