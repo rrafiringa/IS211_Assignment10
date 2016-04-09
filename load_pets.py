@@ -37,16 +37,19 @@ try:
                 cnt = dbcur.fetchone()
                 print 'Try Id 1 to {}.'.format(cnt[0])
             for prow in prows:
-                first, last, age = prow['first'], prow['last'], prow['age']
+                first, last, age = (prow['first'],
+                                    prow['last'],
+                                    prow['age'])
                 print '{} {}, {} years old.'.format(first, last, age)
                 if dbcur.execute(asql):
                     arows = dbcur.fetchall()
                     if len(arows) == 0:
                         print '{} {} has no pet.'.format(first, last)
                     for arow in arows:
-                        name, breed, years, dead = \
-                            arow['name'], arow['breed'], \
-                            arow['age'], arow['dead']
+                        name, breed, years, dead = (arow['name'],
+                                                    arow['breed'],
+                                                    arow['age'],
+                                                    arow['dead'])
                         if int(dead) == 0:
                             print '{} {} owns {}, a {} ' \
                                   'that is {} years old.'.format(first,
