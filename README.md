@@ -49,13 +49,13 @@ writing two Python scripts: one to load data into the database, and another to q
 schema for this part is below::
 
     CREATE TABLE person(
-        id INTEGER PRIMARYKEY,
+        id INTEGER PRIMARY KEY,
         first_name TEXT,
         last_name TEXT,
         age INTEGER
     );
     CREATE TABLE pet(
-        id INTEGER PRIMARYKEY,
+        id INTEGER PRIMARY KEY,
         name TEXT,
         breed TEXT,
         age INTEGER,
@@ -69,15 +69,18 @@ schema for this part is below::
 Save this database to a new file called pets.db. Once that is done, you should do the following:
 
 1. Create a script called load_pets.py, which will connect to the database in pets.db, and load up the
-data below using INSERT commands
-
+data below using INSERT command:
     a. TODO
 
 2. Create a script called query_pets.py, which will:
 
     a. Connect to the database in pets.db
+    
     b. Ask the user for a person’s ID number
+    
     c. Print out data on the person (e.g. Bob Smith, 43 years old)
+    
     d. Print out all the data on that person’s pets (e.g., Bob Smith owns / owned Spot, a golden
     retriever, that is/was 4 years old)
+    
     e. Keep doing this until the user enters in a ­1, which is an indication to exit the program
