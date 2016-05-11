@@ -3,6 +3,8 @@
 
 """
 Week 10 Assignment Part II
+Find pet owner by ID and retrieve associated
+pet information.
 """
 
 import sqlite3 as db
