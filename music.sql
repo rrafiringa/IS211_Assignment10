@@ -28,7 +28,7 @@ INSERT INTO "albums" VALUES(4,'Le Best de Moniqe Seka','2015',6);
 INSERT INTO "albums" VALUES(5,'The Electric Joe Satriani: An Anthology','2003',2);
 INSERT INTO "albums" VALUES(6,'Mpaka Fo','2007',7);
 INSERT INTO "albums" VALUES(7,'Acapella Gold','2005',9);
-INSERT INTO "albums" VALUES(8,'Travelin'' Shoes','2004',9);
+INSERT INTO "albums" VALUES(8,'Travelin Shoes','2004',9);
 INSERT INTO "albums" VALUES(9,'Black Diamond','2008',10);
 INSERT INTO "albums" VALUES(10,'Tik Tike','2011',3);
 INSERT INTO "albums" VALUES(11,'Youth','2006',8);
@@ -43,7 +43,7 @@ CREATE TABLE "songs" (
 INSERT INTO "songs" VALUES(1,'La Ballade Des Gens Heureux',4,236,1);
 INSERT INTO "songs" VALUES(2,'Si Fuera Presidente',6,191,1);
 INSERT INTO "songs" VALUES(3,'Champagne',3,229,2);
-INSERT INTO "songs" VALUES(4,'Era Gia'' Tutto Previsto',6,223,2);
+INSERT INTO "songs" VALUES(4,'Era Gia Tutto Previsto',6,223,2);
 INSERT INTO "songs" VALUES(5,'Always With Me, Always With You',3,201,5);
 INSERT INTO "songs" VALUES(6,'Missounwa',3,302,4);
 INSERT INTO "songs" VALUES(7,'Life O'' the Party',4,269,3);
@@ -52,7 +52,7 @@ INSERT INTO "songs" VALUES(9,'Rock-A-My-Soul',10,136,7);
 INSERT INTO "songs" VALUES(10,'Kalemba (Wegue Wegue)',4,233,9);
 INSERT INTO "songs" VALUES(11,'Tik Tike',1,246,10);
 INSERT INTO "songs" VALUES(12,'King Without A Crown',13,222,11);
-INSERT INTO "songs" VALUES(13,'Travelin'' Shoes',5,144,8);
+INSERT INTO "songs" VALUES(13,'Travelin Shoes',5,144,8);
 
 SELECT 
 	AT.name AS Artist, 
